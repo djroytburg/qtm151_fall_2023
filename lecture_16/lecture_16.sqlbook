@@ -37,9 +37,13 @@ panel on the left:
 Delete existing table
 -- SQLBook: Code
 <<<<<<< HEAD
+<<<<<<< HEAD
 -- Active: 1698674191041@@127.0.0.1@5432@postgres
 =======
 >>>>>>> c3ada620 (add lecure 16 and installing sql file)
+=======
+-- Active: 1698674191041@@127.0.0.1@5432@postgres
+>>>>>>> 84cad94f (update lecture 16 (after class))
 -- If the table already exists we can drop it:
 -- If it doesn't exist nothing happens
 -- System commands are in upper case and user defined
@@ -104,11 +108,16 @@ Try it yourself!
 -- Make sure to deparate arguments by a semicolon!
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 INSERT INTO drivers VALUES (5, 'Max Verstappen', 'Dutch', 51);
 INSERT INTO drivers VALUES (6, 'Juan Pablo Montoya', 'Colombian', 6);
 =======
 
 >>>>>>> c3ada620 (add lecure 16 and installing sql file)
+=======
+INSERT INTO drivers VALUES (5, 'Max Verstappen', 'Dutch', 51);
+INSERT INTO drivers VALUES (6, 'Juan Pablo Montoya', 'Colombian', 6);
+>>>>>>> 84cad94f (update lecture 16 (after class))
 
 -- SQLBook: Markup
 # <span style="color:darkblue"> II. Dataset Operations </span>
@@ -141,6 +150,7 @@ WHERE nationality = 'German';
 -- Evalute OR conditions
 SELECT * FROM drivers
 <<<<<<< HEAD
+<<<<<<< HEAD
 WHERE nationality = 'United States';
 
 -- Evaluate AND conditions
@@ -153,6 +163,13 @@ WHERE (nationality = 'United States') OR (nationality = 'Indian');
 SELECT * FROM drivers
 WHERE (nationality = 'German') AND (driver_id = 2);
 >>>>>>> c3ada620 (add lecure 16 and installing sql file)
+=======
+WHERE nationality = 'United States';
+
+-- Evaluate AND conditions
+SELECT * FROM drivers
+WHERE (driver_id = 2);
+>>>>>>> 84cad94f (update lecture 16 (after class))
 
 -- SQLBook: Markup
 <font size="5"> 
@@ -177,10 +194,14 @@ Sort
 -- Order in ascending order of victories
 -- Remember that * means that all columns are selected
 <<<<<<< HEAD
+<<<<<<< HEAD
 SELECT driver_name FROM drivers
 =======
 SELECT * FROM drivers
 >>>>>>> c3ada620 (add lecure 16 and installing sql file)
+=======
+SELECT driver_name FROM drivers
+>>>>>>> 84cad94f (update lecture 16 (after class))
 ORDER BY victories ASC;
 
 -- Order in descending order of victories
@@ -197,10 +218,14 @@ ORDER BY victories DESC;
 -- The following code would NOT work because we used double quotations
 -- "Double quotations" are used to refer to column names
 <<<<<<< HEAD
+<<<<<<< HEAD
 SELECT * FROM drivers 
 =======
 SELECT * FROM drivers
 >>>>>>> c3ada620 (add lecure 16 and installing sql file)
+=======
+SELECT * FROM drivers 
+>>>>>>> 84cad94f (update lecture 16 (after class))
 WHERE nationality = 'German';
 -- SQLBook: Markup
 <font size = "5">
@@ -212,11 +237,15 @@ with more than 60 victories
 -- SQLBook: Code
 -- Write your own code!
 <<<<<<< HEAD
+<<<<<<< HEAD
 SELECT driver_name, nationality, driver_id, victories FROM drivers;
 =======
 
 
 >>>>>>> c3ada620 (add lecure 16 and installing sql file)
+=======
+SELECT driver_name, nationality, driver_id, victories FROM drivers;
+>>>>>>> 84cad94f (update lecture 16 (after class))
 
 -- SQLBook: Markup
 # <span style="color:darkblue"> III. Groupby + Chaining </span>
