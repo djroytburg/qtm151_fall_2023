@@ -8,6 +8,7 @@ Add a comment with your Emory ID below
 -- SQLBook: Code
 -- Write your own code
 --2484906
+
 -- SQLBook: Markup
 <font size = "5">
 
@@ -15,6 +16,7 @@ Add a comment with your Emory ID below
 -- SQLBook: Code
 -- Write your own code
 CREATE DATABASE formula1;
+
 -- SQLBook: Markup
 
 <font size = "5">
@@ -90,6 +92,7 @@ upper case and lower case letters
 -- SQLBook: Code
 -- Write your own code
 SELECT COUNT(DISTINCT "driverId") FROM drivers;
+
 -- SQLBook: Markup
 <font size = "5">
 
@@ -108,6 +111,7 @@ upper case and lower case letters
 SELECT AVG(milliseconds) AS avg_ms FROM lap_times
 GROUP BY "driverId"
 ORDER BY avg_ms;
+
 -- SQLBook: Markup
 <font size = "5">
 
